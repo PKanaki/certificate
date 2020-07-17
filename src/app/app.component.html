@@ -1,21 +1,29 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="container">
 
-<router-outlet></router-outlet>
+  <div style="text-align: center;"><br/><br/>   
+    <input class="btn btn-success" type="button" value="Print" (click)="convetToPDF()"/>
+  </div>
+ <pre>
+ 
+  <div id="content">
+    <div id="contentToConvert" >
+      <div style="width:900px; height:1100px; padding:20px; text-align:center; border: 10px solid #22c4da" class="bg-dark">
+          <div style="width:850px; height:1000px; padding:20px; text-align:center; border: 10px solid #87e274  " class="bg-light">
+                 <h1 style="font-size:50px; font-weight:bold ; font-family:Algerian" class="text-success bg-light" ><i>Certificate of Completion</i></h1>
+                 <p style="font-size:35px" ><i>This is to certify that</i></p>
+                 <p style="font-size:40px;font-family:Footlight MT Light" class="text-danger"><b>Pallavi Kanaki</b></p>
+                 <p style="font-size:35px"><i>has completed the course</i></p>
+                 <p style="font-size:40px;font-family:Footlight MT Light" class="text-danger"><b>Python</b></p>
+                 <p style="font-size:35px"><i>with score of </i> <b class="text-danger"  style="font-family:Footlight MT Light">99%</b></p> 
+                 <p style="font-size:35px"><i>dated</i></p>
+                 <p  style="font-size:35px;font-family:Footlight MT Light" class="text-danger"><b>10 jun 2020</b></p>
+          </div>
+          </div>
+      </div> 
+    </div>
+
+</pre>
+</div>
+
+
