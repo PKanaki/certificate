@@ -15,7 +15,7 @@ export class AppComponent {
 var data = document.getElementById('contentToConvert');
 html2canvas(data).then(canvas => {
 // Few necessary setting options
-var imgWidth = 259;
+var imgWidth = 274;
 var pageHeight = 2300;
 var imgHeight = canvas.height * imgWidth / canvas.width;
 var heightLeft = imgHeight;
